@@ -93,7 +93,7 @@ export function Dashboard() {
               <TransactionHistory
                 txPage={transactions.data}
                 walletAddress={address}
-                isLoading={transactions.status === 'loading'}
+                isLoading={false}
                 onPageChange={handlePageChange}
               />
             )}
