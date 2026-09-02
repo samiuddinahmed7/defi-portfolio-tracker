@@ -1,0 +1,46 @@
+# Environment files - never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Go
+backend/vendor/
+backend/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker volumes
+postgres-data/
+pgdata/
+
+# Logs
+*.log
+logs/
+
+# Test output
+test-results/
+
+# Build artifacts
+dist/
+build/
